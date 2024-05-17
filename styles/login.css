@@ -18,6 +18,8 @@ html {
 .container_help_links a{
     font-size: 0.8rem;
     color: blue;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
