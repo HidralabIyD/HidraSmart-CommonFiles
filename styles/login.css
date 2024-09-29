@@ -74,7 +74,7 @@ html {
   display: flex !important;
   margin: 0 !important;
   align-items: center;
-  width: 18vw !important;
+  /*width: 18vw !important;*/
 }
 
 .swal2-html-container p {
