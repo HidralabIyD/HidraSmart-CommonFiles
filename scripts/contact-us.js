@@ -100,9 +100,6 @@ async function contactUs() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    const textTechnicalSupportContact = document.getElementById("text-technical-support-contact");
-    textTechnicalSupportContact.addEventListener("click", async function(event) {
-        const sectionTitle = document.getElementById("section-title");
-        sectionTitle.innerHTML = "Soporte técnico y contacto";
-    });
+    const sectionTitle = document.getElementById("section-title");
+    sectionTitle.innerHTML = "Soporte técnico y contacto";
 });
