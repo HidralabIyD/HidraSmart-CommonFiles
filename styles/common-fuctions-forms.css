@@ -44,7 +44,7 @@ html {
     height: 35vw;
     margin-left: -2vw;
     mask-image: linear-Gradient(
-        black 80%,
+        white 80%,
         transparent
     );
 }
