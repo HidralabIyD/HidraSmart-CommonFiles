@@ -39,6 +39,16 @@ html {
     margin-left: -2vw;
 }
 
+.img_forgot_password{
+    width: 100%;
+    height: 35vw;
+    margin-left: -2vw;
+    mask-image: linear-Gradient(
+        black 80%,
+        transparent
+    );
+}
+
 .container_body{
     display: flex;
     width: 35%;
