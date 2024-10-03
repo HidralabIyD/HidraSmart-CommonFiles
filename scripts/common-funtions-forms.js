@@ -16,9 +16,12 @@ function removeRedBorder(element) {
     inputElement.classList.remove('red_text');
 }
 
-function addImportantWarning(element) {
+function addImportantWarning(element, message) {
     var contentElement = document.querySelector('.text_important_warning_'+element);
     contentElement.classList.remove('concealment');
+    if(message){
+        contentElement.innerHTML = message;
+    }
 }
 
 function removeImportantWarning(element) {
